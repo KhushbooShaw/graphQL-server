@@ -4,8 +4,8 @@
   "license": "MIT",
   "description": "The server is made with graphQL and faker to provide fake list of users.",
   "repository": {
-    "type": "NA",
-    "url": "NA"
+    "type": "git",
+    "url": "https://github.com/KhushbooShaw/graphQL-server.git"
   },
   "main": "dist/index.js",
   "scripts": {

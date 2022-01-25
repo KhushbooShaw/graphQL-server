@@ -18,7 +18,7 @@ startServer();
 
 
 // Express: Port
-const PORT = 8080 || process.env;
+const PORT = process.env.PORT || 5000;
 // Express: Listener
 APP.listen(PORT, () => {
   // tslint:disable-next-line:no-console
