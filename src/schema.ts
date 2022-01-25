@@ -9,7 +9,7 @@ export default new ApolloServer({
   typeDefs: TYPEDEFS,
   resolvers: RESOLVERS,
   playground: {
-    endpoint: `http://localhost:5000/graphql`,
+    endpoint: `https://graphql-faker-express.herokuapp.com:8080/graphql`,
     settings: {
       'editor.theme': 'light'
     }
